@@ -8,3 +8,9 @@ app.get('/', function (req, res) {
 app.listen(3000, () => {
     console.log("Server Running on port",3000);
 });
+
+const path = require('path'); // UNE DIRECTORIOS
+
+app.set('views', path.resolve(__dirname, 'views')); 
+
+app.use(express.static(path.resolve(__dirname, '../public')));
