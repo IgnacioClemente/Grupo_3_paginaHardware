@@ -12,5 +12,5 @@ app.listen(3000, () => {
 const path = require('path'); // UNE DIRECTORIOS
 
 app.set('views', path.resolve(__dirname, 'views')); 
-
+//subir la siguiente lìnea
 app.use(express.static(path.resolve(__dirname, '../public')));
