@@ -1,10 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* HEADER */
+
+header {
+background-color: #EAC926;
+}
+
+.logo {
+    width: 25vw;
+}
+
+/* Barra de busqueda */
+
+.buscador {
+    font-size: 10px;
+    width: 35vw;
+    border-radius: 0.3em;
+    height: 23px;
+}
+
+/* Carrito */
+
+
+
+/*login*/
+
+
+
 /*body */
 
 
 h4{ font-weight: bold;
 
 }
-img {
+/*img {
     display: block;
     margin: 
-}
+}*/
