@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 } 
 
@@ -12,11 +12,15 @@ background-color: #EAC926;
 
 .logo {
     width: 25vw;
+    padding: 15px;
+    align-content: center;
 }
 
 /* Barra de busqueda */
 
 .buscador {
+    display: flex;
+    align-content: flex-start;
     font-size: 10px;
     width: 35vw;
     border-radius: 0.3em;
@@ -33,11 +37,15 @@ background-color: #EAC926;
 
 /*body */
 
+.contenedor_productos{
+    background-color: rgb(105, 141, 65);
+    display: flex;
+}
 
-h4{ font-weight: bold;
+/*h4{ font-weight: bold;
 
 }
 img {
     display: block;
     margin: 5;
-}
+}*/
