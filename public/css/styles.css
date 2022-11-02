@@ -9,11 +9,15 @@
 header {
 background-color: #EAC926;
 }
-
 .logo {
     width: 25vw;
+    padding: 15px;
+    align-content: center;
 }
-
+.contenedor_productos {
+    background-color: blue;
+    display:flex
+}
 /* Barra de busqueda */
 
 .buscador {
@@ -35,7 +39,7 @@ background-color: #EAC926;
 
 
 h4{ font-weight: bold;
-
+font-size: 43px;
 }
 img {
     display: block;
