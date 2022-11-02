@@ -38,18 +38,47 @@ background-color: #EAC926;
 
 
 /*body */
-
+/*OFERTAS ESPECIALES*/
 .contenedor_productos{
     background-color: rgb(105, 141, 65);
     display: flex;
+    flex-direction: row;
+    margin: 15px;
 }
+
+.linea1{/* imagenes alineadas porque? no hay porque*/
+    padding: 30px;
+    object-fit: scale-down;
+    object-fit: scale-down;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
+
+img {/*espacio entre las imagenes*/
+    width: 40%;
+    position:relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+h4{
+    background-color: rgb(105, 141, 65);
+    margin: 15px;
+    text-align: center;
+}
+
+/*Mas Vendidos*/
+.linea_mas_vendidos{
+    background-color: rgb(172, 238, 96);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px
+    
+}
+
 
 /*NAv*/
 
-/*h4{ font-weight: bold;
-
-}
-img {
-    display: block;
-    margin: 5;
-}*/
