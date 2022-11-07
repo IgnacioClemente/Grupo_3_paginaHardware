@@ -7,37 +7,63 @@
 /* HEADER */
 
 header {
-background-color: #EAC926;
+    background-color: #EAC926;
+    height: 196px;
 }
+/*logo*/
+
 .logo {
-    width: 10vw;
+    display: flex;
+    width: 12vw;
     padding: 15px;
     align-content: center;
 }
-.contenedor_productos {
-    background-color: blue;
-    display:flex
-}
+
 /* Barra de busqueda */
 
 .buscador {
-    display: flex;
-    align-content: flex-start;
-    font-size: 10px;
-    width: 35vw;
+    font-size: 16px;
+    width: 49vw;
+    position: relative;
     border-radius: 0.3em;
-    height: 23px;
+    height: 42px;
+    left: 242px;
+    top: -93px;
+}
+
+/*login*/
+
+.login{
+    font-size: 18px;
+    position: relative;
+    height: 1261px;
+    left: 1499px;
+    top: -746px;
+    border: none;
+    background: none;
+}
+/*imagen login*/
+
+.loginimage{
+    width: 64px;
+    padding: 15px;
+    position: relative;
+    left: 1473px;
+    top: -710px;
 }
 
 /* Carrito */
 
-
-
-/*login*/
-
-
+.carrito{
+    width: 86px;
+    padding: 15px;
+    position: relative;
+    left: 1639px;
+    top: -1429px;
+}
 
 /*body */
+
 /*OFERTAS ESPECIALES*/
 .contenedor_productos{
     background-color: rgb(105, 141, 65);
@@ -78,7 +104,6 @@ h4{
     padding: 10px
     
 }
-
 
 /*NAv*/
 
