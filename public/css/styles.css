@@ -31,6 +31,15 @@ header {
     top: -93px;
 }
 
+/*lupa*/
+
+.lupa{
+    width: 71px;
+    padding: 10px 20px;
+    position: relative;
+    left: 1061px;
+    top: -2779px;
+}
 /*login*/
 
 .login{
