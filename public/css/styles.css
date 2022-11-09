@@ -86,7 +86,12 @@ header {
 }
 
 /*body */
-
+.contenedor_nav{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
 /*OFERTAS ESPECIALES*/
 .contenedor_productos{
     background-color: rgb(105, 141, 65);
