@@ -42,6 +42,29 @@ header {
     border: none;
     background: none;
 }
+
+/*register*/
+
+.register{
+    font-size: 18px;
+    position: relative;
+    height: 1261px;
+    left: 1356px;
+    top: -2116px;
+    border: none;
+    background: none;
+}
+
+/*imagen register*/
+
+.registerimage{
+    width: 64px;
+    padding: 15px;
+    position: relative;
+    left: 1334px;
+    top: -2085px;
+}
+
 /*imagen login*/
 
 .loginimage{
