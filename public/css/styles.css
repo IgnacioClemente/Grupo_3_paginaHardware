@@ -86,13 +86,16 @@ header {
 }
 
 /*body */
+
 .contenedor_nav{
     background-color: greenyellow;
     display: flex;
     flex-direction: row;
     margin: 15px;
 }
+
 /*OFERTAS ESPECIALES*/
+
 .contenedor_productos{
     background-color: rgb(105, 141, 65);
     display: flex;
@@ -101,6 +104,7 @@ header {
 }
 
 .linea1{/* imagenes alineadas porque? no hay porque*/
+
     padding: 30px;
     object-fit: scale-down;
     object-fit: scale-down;
@@ -111,6 +115,7 @@ header {
 }
 
 img {/*espacio entre las imagenes*/
+
     width: 40%;
     position:relative;
     margin: 10px;
@@ -124,6 +129,7 @@ h4{
 }
 
 /*Mas Vendidos*/
+
 .linea_mas_vendidos{
     background-color: rgb(172, 238, 96);
     display: flex;
