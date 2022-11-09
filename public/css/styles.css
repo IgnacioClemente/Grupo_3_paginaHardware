@@ -44,21 +44,18 @@ header {
 }
 
 /*login button*/
+
 .loginbutton{
     font-size: 18px;
     position: relative;
     height: 41px;
-    left: 1340px;
-    top: -746px;
-    width: 71px;
+    left: 1337px;
+    top: -731px;
+    width: 107px;
     display: inline-block;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 6px;
-    outline: none;
 }
+
 /*register*/
 
 .register{
@@ -69,6 +66,19 @@ header {
     top: -2116px;
     border: none;
     background: none;
+}
+
+/*registerb button*/
+
+.registerbutton{
+    font-size: 18px;
+    position: relative;
+    height: 41px;
+    left: 1177px;
+    top: -2100px;
+    width: 132px;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 /*imagen register*/
