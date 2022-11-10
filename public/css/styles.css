@@ -157,3 +157,55 @@ h4{
 
 /*NAv*/
 
+
+/*FOOTER*/
+
+.pie{
+    background-color: #333333;
+}
+
+.logo_g3{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcb{
+    width: 130px;
+    display: flex;
+}
+.ins{
+    width: 130px;
+    display: flex;
+}
+.twi{
+    width: 130px;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotipo{
+    font-size: 20px;
+    color: white;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    color: grey;
+    font-size: 20px;
+    padding: 30px;
+}
+.derechos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.836);
+}
