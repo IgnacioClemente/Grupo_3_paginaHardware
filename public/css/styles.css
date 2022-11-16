@@ -36,20 +36,30 @@ header {
 .login{
     font-size: 18px;
     position: relative;
-    height: 1261px;
-    left: 1499px;
-    top: -746px;
+    left: 1480px;
+    top: -193px;
     border: none;
     background: none;
 }
+
 /*imagen login*/
 
 .loginimage{
     width: 64px;
     padding: 15px;
     position: relative;
-    left: 1473px;
-    top: -710px;
+    left: 1451px;
+    top: -156px;
+}
+
+/*login button*/
+
+.loginbutton{
+    font-size: 18px;
+    position: relative;
+    left: 1310px;
+    top: -194px;
+    padding: 7px 57px;
 }
 
 /* Carrito */
@@ -58,97 +68,163 @@ header {
     width: 86px;
     padding: 15px;
     position: relative;
-    left: 1639px;
-    top: -1429px;
+    left: 1589px;
+    top: -256px;
+}
+
+/*register*/
+
+.register{
+    font-size: 18px;
+    position: relative;
+    left: 1312px;
+    top: -387px;
+    border: none;
+    background: none;
+}
+
+/*imagen register*/
+
+.registerimage{
+    width: 64px;
+    padding: 15px;
+    position: relative;
+    left: 1290px;
+    top: -357px;
+}
+
+/*registerb button*/
+
+.registerbutton{
+    font-size: 18px;
+    position: relative;
+    left: 1125px;
+    top: -389px;
+    padding: 8px 71px;
+}
+
+/*lupa*/
+
+.lupa{
+    width: 71px;
+    padding: 10px 20px;
+    position: relative;
+    left: 1061px;
+    top: -431px;
 }
 
 /*body */
-.flexbox{
-    display: flex;
-}
-body{
-     
-    counter-reset: section;
-}
-
-
-/* Nav*/
-
-nav{
+.contenedor_nav{
+    background-color: greenyellow;
     display: flex;
     flex-direction: row;
-    padding: 0%;n
-    flex-wrap: wrap;
-    align-content: flex-start;
-    
+    margin: 15px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    
-    width: 9%;
-    background-color: #6dbf07;
-    position: fixed;;
-    position: fixed;
-    height: 37%;
-    overflow: auto;
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  li a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-
 /*OFERTAS ESPECIALES*/
+/* .contenedor_productos{
+    background-color: rgb(105, 141, 65);
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+} */
 
-
-ofertas_especiales{/* imagenes alineadas porque? no hay porque*/
-    padding: 2% 2% 2% 12%;
+.linea1{
+    padding: 30px;
     object-fit: scale-down;
     object-fit: scale-down;
     display: block;
-    /* margin-left: 10%;
-    margin-right: auto; */
-    position: fixed; */
-    margin-left: 15%;
-}
-
-img {/*espacio entre las imagenes*/
+    margin-left: 10%;
+    margin-right: auto;
     width: 40%;
     
+    
+    
+}
+
+/* img {/*esto no lo toco afecta a todas la imagenes!*/
+
+    width: 40%;
+    position:relative;
     margin: 10px;
     padding: 10px;
-}
+*/
 
 h4{
     background-color: rgb(105, 141, 65);
-    width: 90%;
-
+    margin: 15px;
     text-align: center;
-}
+    font-size: 30px;
+    color: #EAC926;
+} 
+li{
+    font-size: 22px;
+} 
 
-/*Mas Vendidos*/
+*/
+Mas Vendidos*/
+
 .linea_mas_vendidos{
     background-color: rgb(172, 238, 96);
-    display: flex;
-    justify-content: center;
-    /* margin: 10px;
-    padding: 10px */
-    width: 90%;
+    width: 50%;
+    margin: 10px;
+    padding: 10px
+    float: left;
+    
+   
+    }
 
-}
 
 /*NAv*/
 
+
+/*FOOTER*/
+
+.pie{
+    background-color: #333333;
+}
+
+.logo_g3{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcb{
+    width: 130px;
+    display: flex;
+}
+.ins{
+    width: 130px;
+    display: flex;
+}
+.twi{
+    width: 130px;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotipo{
+    font-size: 20px;
+    color: white;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    color: grey;
+    font-size: 20px;
+    padding: 30px;
+}
+.derechos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.836);
+}
