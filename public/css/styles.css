@@ -63,40 +63,79 @@ header {
 }
 
 /*body */
-.contenedor_nav{
-    background-color: greenyellow;
+.flexbox{
     display: flex;
-    flex-direction: row;
-    margin: 15px;
 }
-/*OFERTAS ESPECIALES*/
-.contenedor_productos{
-    background-color: rgb(105, 141, 65);
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
+body{
+     
+    counter-reset: section;
 }
 
-.linea1{/* imagenes alineadas porque? no hay porque*/
-    padding: 30px;
+
+/* Nav*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;n
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    width: 9%;
+    background-color: #6dbf07;
+    position: fixed;;
+    position: fixed;
+    height: 37%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+/*OFERTAS ESPECIALES*/
+
+
+ofertas_especiales{/* imagenes alineadas porque? no hay porque*/
+    padding: 2% 2% 2% 12%;
     object-fit: scale-down;
     object-fit: scale-down;
     display: block;
-    margin-left: 10%;
-    margin-right: auto;
-
+    /* margin-left: 10%;
+    margin-right: auto; */
+    position: fixed; */
+    margin-left: 15%;
 }
 
 img {/*espacio entre las imagenes*/
     width: 40%;
-    position:relative;
+    
     margin: 10px;
     padding: 10px;
 }
 
 h4{
     background-color: rgb(105, 141, 65);
-    margin: 15px;
+    width: 90%;
+
     text-align: center;
 }
 
@@ -105,9 +144,10 @@ h4{
     background-color: rgb(172, 238, 96);
     display: flex;
     justify-content: center;
-    margin: 10px;
-    padding: 10px
-    
+    /* margin: 10px;
+    padding: 10px */
+    width: 90%;
+
 }
 
 /*NAv*/
