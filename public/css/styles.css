@@ -130,33 +130,23 @@ header {
 
 .linea1{
     padding: 30px;
-    object-fit: scale-down;
-    object-fit: scale-down;
-    display: block;
-    margin-left: 10%;
-    margin-right: auto;
-    width: 40%;
     
+    margin-left: 25%;
+  
     
     
 }
 
-/* img {/*esto no lo toco afecta a todas la imagenes!*/
 
-    width: 40%;
-    position:relative;
-    margin: 10px;
-    padding: 10px;
-*/
 
-h4{
+.h4{
     background-color: rgb(105, 141, 65);
     margin: 15px;
     text-align: center;
     font-size: 30px;
     color: #EAC926;
 } 
-li{
+.li{
     font-size: 22px;
 } 
 
@@ -169,12 +159,15 @@ Mas Vendidos*/
     margin: 10px;
     padding: 10px
     float: left;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
     
    
     }
 
 
-/*NAv*/
+
 
 
 /*FOOTER*/
