@@ -8,141 +8,153 @@
 
 header {
     background-color: #EAC926;
-    height: 196px;
 }
-/*logo*/
+
+.header_logo-buscador{
+    display: flex;
+}
+
+/*logo */
 
 .logo {
     display: flex;
-    width: 12vw;
-    padding: 15px;
-    align-content: center;
+    width: 24vw;
 }
 
 /* Barra de busqueda */
 
 .buscador {
-    font-size: 16px;
-    width: 49vw;
-    position: relative;
-    border-radius: 0.3em;
-    height: 42px;
-    left: 242px;
-    top: -93px;
+    display: flex;
+    height: 100px;
+    padding-top: 70px;
+    margin-left: -118px;
 }
 
-/*login*/
+/* Texto */
+
+.texto{
+    display: flex;
+    font-size: 16px;
+    border-radius: 0.3em;
+    width: 551px;
+}
+
+/* lupa */
+
+.lupa{
+    display: flex;
+    padding: 1px;
+    border-radius: 0.3em;
+    height: 94%;
+    width: 35px;
+    margin-left: -35px;
+    margin-top: 1px;
+}
+
+/* Login */
 
 .login{
-    font-size: 18px;
-    position: relative;
-    left: 1480px;
-    top: -193px;
+    display: flex;
+    font-size: 21px;
+    margin-left: 97px;
+    margin-top: 72px;
     border: none;
     background: none;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    height: 29px;
 }
 
-/*imagen login*/
+/*imagen login */
 
 .loginimage{
-    width: 64px;
-    padding: 15px;
-    position: relative;
-    left: 1451px;
-    top: -156px;
-}
-
-/*login button*/
-
-.loginbutton{
-    font-size: 18px;
-    position: relative;
-    left: 1310px;
-    top: -194px;
-    padding: 7px 57px;
+    display: flex;
+    padding: 0px;
+    height: 19%;
+    width: 28px;
+    margin-left: 163px;
+    margin-top: -30px;
 }
 
 /* Carrito */
 
 .carrito{
-    width: 86px;
-    padding: 15px;
-    position: relative;
-    left: 1589px;
-    top: -256px;
+    display: flex;
+    padding: 0px;
+    height: 27%;
+    width: 43px;
+    margin-left: 184px;
+    margin-top: 63px;
 }
 
-/*register*/
+/*register */
 
 .register{
-    font-size: 18px;
-    position: relative;
-    left: 1312px;
-    top: -387px;
+    display: flex;
+    font-size: 21px;
+    margin-left: -226px;
+    margin-top: 73px;
     border: none;
     background: none;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
 }
 
-/*imagen register*/
+/*imagen register */
 
 .registerimage{
-    width: 64px;
-    padding: 15px;
-    position: relative;
-    left: 1290px;
-    top: -357px;
-}
-
-/*registerb button*/
-
-.registerbutton{
-    font-size: 18px;
-    position: relative;
-    left: 1125px;
-    top: -389px;
-    padding: 8px 71px;
-}
-
-/*lupa*/
-
-.lupa{
-    width: 71px;
-    padding: 10px 20px;
-    position: relative;
-    left: 1061px;
-    top: -431px;
+    display: flex;
+    padding: 0px;
+    height: 19%;
+    width: 28px;
+    margin-left: -124px;
+    margin-top: -30px;
 }
 
 /*body */
 
+img {/*espacio entre las imagenes*/
+
+    width: 40%;
+    position:relative;
+    margin: 10px;
+    padding: 10px;
+}
+
 .contenedor_nav{
     background-color: greenyellow;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column-reverse;
     margin: 2px;
     justify-content: space-evenly;
+=======
+    flex-direction: row;
+    margin: 15px;
+>>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 }
 
 /*OFERTAS ESPECIALES*/
 
-.contenedor_productos{
+/* .contenedor_productos{
     background-color: rgb(105, 141, 65);
     display: flex;
     flex-direction: row;
-    margin: 2px;
-}
+    margin: 15px;
+} */
 
-.linea1{/* imagenes alineadas porque? no hay porque*/
-
+.linea1{
     padding: 30px;
-    object-fit: scale-down;
-    object-fit: scale-down;
-    display: block;
-    margin-left: 10%;
-    margin-right: auto;
-
+    
+    margin-left: 25%;
+  
+    
+    
 }
 
+<<<<<<< HEAD
 body img {/*espacio entre las imagenes*/
 
     width: 40%;
@@ -152,11 +164,15 @@ body img {/*espacio entre las imagenes*/
 }
 
 h4{
+=======
+.h4{
+>>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
     background-color: rgb(105, 141, 65);
-    margin: 2px;
+    margin: 15px;
     text-align: center;
     font-size: 30px;
     color: #EAC926;
+<<<<<<< HEAD
 }
 
 h5{
@@ -165,20 +181,26 @@ h5{
     justify-content: space-evenly;
     
 }
+=======
+} 
+
+.li{
+    font-size: 22px;
+} 
+
+>>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 /*Mas Vendidos*/
 
 .linea_mas_vendidos{
     background-color: rgb(172, 238, 96);
-    display: flex;
-    justify-content: center;
-    margin: 2px;
+    width: 50%;
+    margin: 10px;
     padding: 10px;
-    width: 100%;
-    
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
 }
-
-/*NAv*/
-
 
 /*FOOTER*/
 
