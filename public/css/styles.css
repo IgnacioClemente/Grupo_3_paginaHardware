@@ -128,7 +128,7 @@ img {/*espacio entre las imagenes*/
  nav{
     margin: 5%;
     clear: both;
-   
+    width: 20%;
  }
 
 
@@ -137,22 +137,29 @@ img {/*espacio entre las imagenes*/
 /*OFERTAS ESPECIALES*/
 
 .ofertas_especiales{
-    display: flex;
+    
     flex-direction: column;
     align-items: center;
-}
-
-
-
-
-.linea1{
-    /* clear: both; */
-    
-    background: #EAC926;
-    width: 80%;
+    background: aquamarine;
     float: right;
-    
+    width: 80%;
 }
+
+
+.contenedor_productos{
+   
+    width: 90%;
+}
+
+
+/* .contenedor_productos*/ .linea1{ 
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row-reverse;
+}
+
 
 /* body img {/*espacio entre las imagenes*/
 
