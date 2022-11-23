@@ -2,7 +2,7 @@
     margin: 10;
     padding: 10;
     box-sizing: border-box;
-} 
+}
 
 /* HEADER */
 
@@ -116,48 +116,51 @@ header {
 }
 
 /*body  yo  entendi que img no iba a estar aca */
-/* 
+
 img {/*espacio entre las imagenes*/
 
     width: 40%;
-    position:relative;
+
     margin: 10px;
     padding: 10px;
-} */
+} 
 
-.contenedor_nav{
-    background-color: greenyellow;
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 2px;
-    justify-content: space-evenly;
-}
+ nav{
+    margin: 5%;
+    clear: both;
+   
+ }
+
+
+
 
 /*OFERTAS ESPECIALES*/
 
-/* .contenedor_productos{
-    background-color: rgb(105, 141, 65);
+.ofertas_especiales{
     display: flex;
-    flex-direction: row;
-    margin: 15px;
-} */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 .linea1{
-    padding: 30px;
+    /* clear: both; */
     
-    margin-left: 25%;
-  
-    
+    background: #EAC926;
+    width: 80%;
+    float: right;
     
 }
 
-body img {/*espacio entre las imagenes*/
+/* body img {/*espacio entre las imagenes*/
 
     width: 40%;
     position: relative;
     margin: 10px;
     padding: 10px;
-}
+} */
 
 /* h4{
     background-color: rgb(105, 141, 65);
@@ -171,7 +174,7 @@ h5{
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
-    
+
 } */
 /*Mas Vendidos*/
 
