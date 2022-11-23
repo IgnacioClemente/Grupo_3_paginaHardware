@@ -58,6 +58,7 @@ header {
     font-size: 21px;
     margin-left: 97px;
     margin-top: 72px;
+    width: 92px;
     border: none;
     background: none;
     font-weight: 400;
@@ -95,6 +96,7 @@ header {
     font-size: 21px;
     margin-left: -226px;
     margin-top: 73px;
+    width: 50px;
     border: none;
     background: none;
     font-weight: 400;
@@ -126,14 +128,9 @@ img {/*espacio entre las imagenes*/
 .contenedor_nav{
     background-color: greenyellow;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column-reverse;
     margin: 2px;
     justify-content: space-evenly;
-=======
-    flex-direction: row;
-    margin: 15px;
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 }
 
 /*OFERTAS ESPECIALES*/
@@ -154,7 +151,6 @@ img {/*espacio entre las imagenes*/
     
 }
 
-<<<<<<< HEAD
 body img {/*espacio entre las imagenes*/
 
     width: 40%;
@@ -164,15 +160,11 @@ body img {/*espacio entre las imagenes*/
 }
 
 h4{
-=======
-.h4{
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
     background-color: rgb(105, 141, 65);
     margin: 15px;
     text-align: center;
     font-size: 30px;
     color: #EAC926;
-<<<<<<< HEAD
 }
 
 h5{
@@ -181,14 +173,6 @@ h5{
     justify-content: space-evenly;
     
 }
-=======
-} 
-
-.li{
-    font-size: 22px;
-} 
-
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 /*Mas Vendidos*/
 
 .linea_mas_vendidos{
