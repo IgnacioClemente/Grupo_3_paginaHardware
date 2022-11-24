@@ -145,16 +145,11 @@ img {/*espacio entre las imagenes*/
 
 .linea1{
     padding: 30px;
-    
-    margin-left: 25%;
-  
-    
-    
+    margin-left: 15%;
     flex-direction: column;
     align-items: center;
-    background: aquamarine;
-    float: right;
     width: 80%;
+    
 }
 
 body img {/*espacio entre las imagenes*/
@@ -182,16 +177,18 @@ h5{
 /*Mas Vendidos*/
 
 .mas_vendidos{
-    background-color: blue;
+    padding: 30px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    width: 75%;    
 }
 
 .linea_mas_vendidos{
-    background-color: rgb(172, 238, 96);
-    
+    background-color: greenyellow;
     margin: 10px;
     padding: 10px;
-    float: left;
-   
+    float: left;   
 }
 
 /*FOOTER*/
