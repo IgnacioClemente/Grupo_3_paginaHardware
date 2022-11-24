@@ -115,12 +115,10 @@ header {
     margin-top: -30px;
 }
 
-/*body  yo  entendi que img no iba a estar aca */
+/*  -----BODY-----  */
 
-img {/*espacio entre las imagenes*/
-
+img {/*tamaño de las imagenes*/
     width: 40%;
-
     margin: 10px;
     padding: 10px;
 } 
@@ -139,7 +137,7 @@ img {/*espacio entre las imagenes*/
     background-color: rgb(105, 141, 65);
     display: flex;
     flex-direction: column-reverse;
-    margin: 2px;
+    margin: 1px;
     justify-content: space-evenly;
 }
 
@@ -149,20 +147,11 @@ img {/*espacio entre las imagenes*/
     flex-direction: column;
     align-items: center;
     width: 80%;
-    
-}
-
-body img {/*espacio entre las imagenes*/
-    
-    width: 40%;
-    position: relative;
-    margin: 10px;
-    padding: 10px;
 }
 
 h4{
     background-color: rgb(105, 141, 65);
-    margin: 15px;
+    margin: 1px;
     text-align: center;
     font-size: 30px;
     color: #EAC926;
@@ -172,8 +161,8 @@ h5{
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
-
 }
+
 /*Mas Vendidos*/
 
 .mas_vendidos{
@@ -186,7 +175,7 @@ h5{
 
 .linea_mas_vendidos{
     background-color: greenyellow;
-    margin: 10px;
+    margin: 1px;
     padding: 10px;
     float: left;   
 }
@@ -195,6 +184,7 @@ h5{
 
 .pie{
     background-color: #333333;
+    margin: -10px;
 }
 
 .logo_g3{
