@@ -126,24 +126,20 @@ img {/*espacio entre las imagenes*/
 .contenedor_nav{
     background-color: greenyellow;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column-reverse;
     margin: 2px;
     justify-content: space-evenly;
-=======
-    flex-direction: row;
-    margin: 15px;
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 }
 
 /*OFERTAS ESPECIALES*/
 
-/* .contenedor_productos{
+.contenedor_productos{
     background-color: rgb(105, 141, 65);
     display: flex;
-    flex-direction: row;
-    margin: 15px;
-} */
+    flex-direction: column-reverse;
+    margin: 2px;
+    justify-content: space-evenly;
+}
 
 .linea1{
     padding: 30px;
@@ -154,9 +150,8 @@ img {/*espacio entre las imagenes*/
     
 }
 
-<<<<<<< HEAD
 body img {/*espacio entre las imagenes*/
-
+    
     width: 40%;
     position: relative;
     margin: 10px;
@@ -164,31 +159,19 @@ body img {/*espacio entre las imagenes*/
 }
 
 h4{
-=======
-.h4{
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
     background-color: rgb(105, 141, 65);
     margin: 15px;
     text-align: center;
     font-size: 30px;
     color: #EAC926;
-<<<<<<< HEAD
 }
 
 h5{
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-=======
-} 
-
-.li{
-    font-size: 22px;
-} 
-
->>>>>>> d24260576a36a0a0e8fb18640e4fa46946d93a21
 /*Mas Vendidos*/
 
 .linea_mas_vendidos{
