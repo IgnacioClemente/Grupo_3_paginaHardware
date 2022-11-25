@@ -191,32 +191,44 @@ h5{
     width: 200px;
     display: flex;
     align-items: center;
+    margin-left: 50px;
 }
+
 .redes{
     display: flex;
     justify-content: space-evenly;
 }
+
 .fcb{
     width: 130px;
     display: flex;
+    margin-left: 800px;
 }
+
 .ins{
     width: 130px;
     display: flex;
+    margin-left: -90px;
 }
+
 .twi{
     width: 130px;
     display: flex;
+    margin-left: -90px;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logotipo{
     font-size: 20px;
     color: white;
+    margin-left: -5px;
 }
+
 .section{
     display: flex;
     justify-content: space-evenly;
@@ -225,6 +237,7 @@ h5{
     font-size: 20px;
     padding: 30px;
 }
+
 .derechos{
     display: flex;
     justify-content: space-around;
