@@ -1,38 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel = "stylesheet" href="css/styles.css">
-        <title>G3 Hardware y Software</title>
-    </head>
-
-<header>
-    <div class="header_logo-buscador">
-        <div class="logo">
-            <img src="images/Logo_G3.jpg" alt="Logo"/>
-        </div>
-        <div class="buscador">
-            <input class = "texto" type="text" placeholder="Buscar productos"> <img class="lupa" src="images/lupa.png" alt="lupa">
-        </div>
-        <div>
-            <a class="login" href="/users/login" target ="_blank" >Ingresar</a><img class ="loginimage" src="images/login.png" alt="login">
-        </div>
-        <div>
-            <img class = "carrito de busqueda" src="images/carrito.png" alt="Carrito">
-        </div>
-        <div>
-            <a class="register" href="/users/register" target = "_blank">Registrarse</a><img class="registerimage" src="images/register.png"alt="register">
-        </div>
-    </div>
-</header>
+     <%- include('./partials/head') %>
 
 <body>
+    <%- include('./partials/header') %>
+
 <!--En esta parte van a escribir código Rocío y Lucas-->
     <!-- no se si productos va con otra etiqueta-ver--->
    <div class="contenedor_nav">
     <div><h4>PRODUCTOS</h4>
-
         <div>
         <h5>PCs</h5>
         </div>
@@ -83,25 +59,36 @@
             <span class="ins"><img src="images/logo_instagram.png" alt="logo de instagram"></span>
             <span class="twi"><img src="images/logo_twitter.png" alt="logo de twitter"></span>
         </div>
+
      </div>
+
      <hr>
+
      <div class="section">
         <div>
             <h5>Nuestra Empresa</h5>
         </div>
+
         <div>
             <h5>Contactanos</h5>
         </div>
+
         <div>
             <h5>Preguntas Frecuentes</h5>
         </div>
+
         <div>
             <h5>Términos y Condiciones</h5>
         </div>
+
      </div>
+
      <div class="derechos">
         <p>G3 Hardware 2022 - Todos los Derechos Reservados</p>
      </div>   
+
     </footer>
+
 </body>
+
 </html>

@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 const path = require('path'); // UNE DIRECTORIOS
-const mainRoutes = require('./routes/mainRoutes.js');
-const usersRoutes = require('./routes/usersRoutes.js');
+const mainRoutes = require('./routes/mainRoutes');
+const usersRoutes = require('./routes/usersRoutes');
 
-app.use(express.static(path.resolve(__dirname, 'public')));
+app.set('views', path.join(__dirname, '/views'));
 
-// app.set("view engine", "ejs");
+app.set('view engine', 'ejs');
 
-// app.set("views", path.join(__dirname, "/views"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', mainRoutes);
 
