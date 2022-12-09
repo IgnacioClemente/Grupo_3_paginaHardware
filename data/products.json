@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titulo": "Monitor Gamer",
+    "description": "Monitor Gamer Samsung LF27T350FHLCZB 27´Artículo: 363943",
+    "price": "$70199",
+    "currency": "U$S",
+    "image": "img_monitor.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "",
+    "description": "",
+    "price": "",
+    "currency": "U$S",
+    "image": "img_componente.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "PC CPU",
+    "description": "PC CPU EXO UNITED GAMERS K7Ve",
+    "price": "$249999",
+    "currency": "U$S",
+    "image": "img_PC.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Notebook ",
+    "description": "Notebook Dell 15 Core i5 1135G7 8GB 256GB Latitude 3520 Sin Sistema Operativo",
+    "price": "$305799",
+    "currency": "U$S",
+    "image": "img_notebook.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "MOTHERBOARD ASUS", 
+    "description": "MOTHERBOARD ASUS AM4 ROG STRIX B550-F GAMING BOX ATX",
+    "price": "$102416",
+    "currency": "U$S",
+    "image": "img_motherboard.jpg"
+  }
+]
