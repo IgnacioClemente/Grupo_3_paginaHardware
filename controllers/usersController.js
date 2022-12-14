@@ -10,12 +10,13 @@ const usersController = {
      res.render ("users/login", {
          users: usersList
   });
+  
     },
 
      register: (req, res) => {
       res.render ("users/register");
 
-     },
+    },
 
    storeUser: (req, res) => {
     let uset = req.body;
@@ -27,6 +28,7 @@ const usersController = {
     fs.writeFileSync(usersListPath, JSON.stringify(usersList, null,2));
 
     res.redirect("/users");
+
    },
     // login: (req, res) => {
     //     res.sendFile(path.join(__dirname,'../views/users/login.ejs'));
@@ -39,7 +41,6 @@ const usersController = {
       // register:(req,res) => {
       //   res.sendFile(path.join(__dirname, '../views/users/register.html'));
       // }
+}
 
-    
-
-module.exports = mainController,
+module.exports = usersController;

@@ -4,7 +4,7 @@ const path = require('path'); // UNE DIRECTORIOS
 
 
 const mainRoutes = require('./routes/mainRoutes');
-const usersRoutes = require('./routes/usersRoutes');
+//const usersRoutes = require('./routes/usersRoutes');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', mainRoutes);
 
-app.use('/users', usersRoutes);
+//app.use('/users', usersRoutes);
 
 // app.get('/', (req, res) => {
 //   res.sendFile(path.resolve(__dirname, 'views/index.html'));

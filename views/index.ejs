@@ -6,7 +6,15 @@
     <%- include('./partials/header') %>
 
 <!-- no estoy segura -->
-    <% for(let index=0;) %> 
+<% for(let index=0; index <2; index++) { %>
+       <!--<div class="linea1">
+        <%= products[index].imagen %>
+    </div> --> 
+         <h4><%= products[index].name %></h4>
+         <h4><%= products[index].price %></h4>
+         <h4><%= products[index].category %></h4>
+        <br />
+        <% } %>
 
    <div class="contenedor_nav">
     <div><h4>PRODUCTOS</h4>

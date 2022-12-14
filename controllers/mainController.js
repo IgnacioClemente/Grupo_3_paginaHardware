@@ -5,17 +5,16 @@ const mainController = {
     // index: (req, res) => {
     //     res.sendFile(path.join(__dirname,'../views/index.ejs'));
     //   }
+    
+    index: (req,res)=> {res.render('index',{products:listProducts});
 
-    index: (req, res) => {
-      res.render("index");
- },
+},
 
  detail: (req,res) =>{
     const id = req.params.id;
     const products = listProducts.find(products=>{products.id == id});
     res.render('detailProducts',{products});
- }
-
+ },
 
 }
 
